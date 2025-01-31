@@ -2,3 +2,4 @@ openai.key
 test_content.py
 test.py
 testCon.py
+__pycache__
