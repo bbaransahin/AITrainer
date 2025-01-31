@@ -1,0 +1,29 @@
+Info1: Name/Nickname, Used to personalize the app experience.
+Info2: Age/Date of Birth, Determines age-related fitness and dietary recommendations.
+Info3: Gender, Impacts caloric expenditure and exercise programming.
+Info4: Height, Used to calculate BMI and other metrics.
+Info5: Weight, Tracks progress and calculates body composition metrics.
+Info6: Injury History, Details of past or current injuries affecting exercise selection.
+Info7: Chronic Conditions, Identifies any health conditions to consider during training.
+Info8: Medication Usage, Determines potential effects on fitness or energy levels.
+Info9: Doctor’s Clearance(optional), Confirms medical approval for exercise if needed.
+Info10: Resting Heart Rate(optional), Assesses cardiovascular fitness and readiness for exercise.
+Info11: Training Experience, Assesses beginner, intermediate, or advanced fitness level.
+Info12: Previous Activities, Identifies past sports or fitness activities.
+Info13: Frequency of Past Workouts, Captures historical workout consistency.
+Info14: Occupation, Identifies physical activity level at work.
+Info15: Daily Activity Level, Estimates baseline activity level (e.g., sedentary, lightly active).
+Info16: Sleep Patterns, Determines recovery and readiness based on sleep habits.
+Info17: Dietary Preferences, Identifies food preferences or restrictions.
+Info18: Hydration Habits, Tracks water intake for overall health.
+Info19: Preferred Workout Environment, Identifies whether the user trains at home, gym, or outdoors.
+Info20: Available Equipment, Determines accessible workout tools.
+Info21: Preferred Workout Time, Captures user’s best time of day for training.
+Info22: Motivational Triggers, Identifies what inspires the user (e.g., competition, health).
+Info23: Music/Entertainment Preferences(optional), Captures user’s preferred workout entertainment.
+Info24: Body Measurements(optional), Tracks areas like waist, hips, and arms for progress monitoring.
+Info25: Goal Body Weight/Composition(optional), Tracks target weight or body fat percentage.
+Info26: Photographic Records(optional), Allows visual tracking of progress.
+Info27: Fitness Metrics(optional), Includes initial fitness assessments like push-ups, planks, or cardio tests.
+Info28: Data Privacy Agreement, Captures user consent for data usage.
+Info29: GDPR/Compliance Confirmation, Confirms compliance with user data rights.
