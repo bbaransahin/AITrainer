@@ -55,4 +55,38 @@ def addGoal(goal_string):
     data.append(goal_string)
     
     with open('goals.json', 'w+') as fo:
-        json.dump(data,fo)
+        json.dump(data, fo)
+
+def getPreviousWorkouts(n):
+    try:
+        with open('previous_workouts.json', 'r') as fi:
+            data = json.load(fi)
+            if (len(data) > n):
+                return data[-n:]
+            return data
+    except:
+        return 'Not provided'
+
+def addWorkout(workout_data):
+    try:
+        with open('previous_workouts.json', 'r') as fi:
+            data = json.load(fi)
+    except:
+        data = []
+
+    data.append(workout_data)
+
+    with open('previous_workouts.json', 'w+') as fo:
+        json.dump(data, fo)
+
+def addFeedbackToWorkout(feedback, idx)
+    try:
+        with open('previous_workouts.json', 'r') as fi:
+            data = json.load(fi)
+    except:
+        print('ERROR: COULDN\'T READ THE PREVIOUS WORKOUTS DATABASE')
+
+    data[idx]['user_feedback'] = feedback
+    
+    with open('previous_workouts.json', 'w+') as fo:
+        json.dump(data, fo)

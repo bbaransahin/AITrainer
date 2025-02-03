@@ -3,3 +3,8 @@ test_content.py
 test.py
 testCon.py
 __pycache__
+
+personal_details.json
+weekly_plan.json
+goals.json
+previous_workouts.json
